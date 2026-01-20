@@ -1,3 +1,7 @@
 token.txt
 firebase_key.json
-__pycache__/*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

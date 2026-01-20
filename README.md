@@ -20,7 +20,8 @@ pip install firebase_admin
 Requires:
 
 `token.txt` with your bot's token
-
+`firebase_key.json` with your firebase credentials
+Installation of the dependencies (on `requirements.txt`)
 `python main.py`
 
 ## PLANNED FEATURES (Feel free to add)

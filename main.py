@@ -13,6 +13,7 @@ import asyncio
 from ossapi import Ossapi
 from bot.task_manager.task_master import TaskChecker
 from bot.task_manager.task_crud import TaskCrud
+from bot.split_money.administrative_commands import MoneySplitCrud
 
 import re
 
@@ -43,6 +44,7 @@ async def on_ready():
     await bot.load_extension('bot.fun.fun-master')
     await bot.add_cog(TaskChecker(bot, db))
     await bot.add_cog(TaskCrud(bot, db))
+    await bot.add_cog(MoneySplitCrud(bot, db))
 
 '''
 Init: open token file and set token
