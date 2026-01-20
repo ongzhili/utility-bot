@@ -11,6 +11,14 @@ To install dependencies:
 pip install discord
 ```
 
+## Running:
+
+Requires:
+
+`token.txt` with your bot's token
+
+`python main.py`
+
 ## PLANNED FEATURES (Feel free to add)
 
 ### TODO feat/split-money
